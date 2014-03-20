@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/timburks/NuHTTPHelpers"
   s.author       = "Valerii Lider"
   s.source       = { :git => "https://github.com/liimur/SafeDownloadOperation.git" }
-  s.source_files = "SafeDownloadOperation.h,m"
+  s.source_files = "*.h,m"
   s.platform	 = :ios, "4.0"
   s.requires_arc = true
   s.license	 = {
